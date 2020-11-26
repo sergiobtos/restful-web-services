@@ -14,7 +14,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
 @Configuration
 @EnableSwagger2WebMvc
 public class SwaggerConfig {
-
+    //http://localhost:8080/actuator or http://localhost:8080/application
+    //http://localhost:8080/swagger-ui/index.html
     public static final Contact DEFAULT_CONTACT = new Contact(
             "Sergio Silva", "http://www.sergiobtos.com", "sergiobtos@hotmail.com");
 
